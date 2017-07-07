@@ -32,18 +32,35 @@ body{
 	border-right: 1px grey solid;
 }
 
-#aboutMePicture{
-	background-image: url("res/sampleAvatar.png");
+#aboutMeContainer{
 	position: absolute;
 	margin: 0;
 	right: 0;
 	height: 60%;
 	width: 5%;
-	background-size: contain;
-	background-repeat: no-repeat;
 	top: 20%;
 	bottom: 20%;
+}
+
+#aboutMePicture{
+	display: block;
+	background-image: url("res/sampleAvatar.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 80%;
 	opacity: 0.6;
+	margin: 0;
+	margin-left: 5.25%;
+}
+
+#aboutMeLabel{
+	color: #ffffff;
+	display: block;
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+	width: 80%;
+	margin-top: 2.5%;
 }
 
 #aboutMeDescBox{
