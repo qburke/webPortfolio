@@ -72,6 +72,7 @@ body{
 	box-shadow: 3px 0 3px black;
 	position: fixed;
 	z-index: 2;
+	text-align: center;
 }
 
 #icon1{
@@ -96,12 +97,11 @@ body{
 	margin: 0 auto;
 	float: center;
 	height: 5.5%;
-	width: 50%;
+	width: 80%;
 	height: 4%;
 	background-repeat: no-repeat;
 	background-size: contain;
 	opacity: 0.6;
-	z-index: 3;
 }
 
 .selectedIcon{
@@ -110,11 +110,10 @@ body{
 	margin: 0 auto;
 	float: center;
 	height: 5.5%;
-	width: 50%;
+	width: 80%;
 	height: 4%;
 	background-repeat: no-repeat;
 	background-size: contain;
-	z-index: 3;
 }
 
 .iconLabel{
@@ -122,6 +121,8 @@ body{
 	margin-bottom: 50%;
 	color: #ffffff;
 	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	float: center;
 }
 
 
@@ -130,6 +131,8 @@ body{
 	position: relative;
 	top: 16%;
 	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
 }
 
 /* BODY CONTENT */
