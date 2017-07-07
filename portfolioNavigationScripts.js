@@ -43,6 +43,8 @@ function iconSelected(icon_id){
 	$(".descBox_icon" + prevIndex).css("display", "none");
 	$("#aboutMeDescBox").fadeTo(400, "0");
 	$("#aboutMeDescBox").css("display", "none");
+	$(".articleBox").fadeTo(400, "0");
+	$(".articleBox").css("display", "none");
 	
 	// fade in new content divs
 	$(".descBox_icon" + selIndex).fadeTo(400, "1");
@@ -59,5 +61,10 @@ function aboutMe(){
 }
 
 function textArticle(icon_id, article_id){
-	
+	var index = icon_id.charAt(icon_id.length-1);
+	$(".descBox_icon" + index).fadeTo(400, "0");
+	$(".descBox_icon" + index).css("display", "none");
+	var article = document.getElementById(article_id);
+	$(article).fadeTo(400, "1");
+	$(article).css("display", "inline-block");
 }
