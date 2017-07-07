@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Shopping List</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel = "stylesheet" type = "text/css" href = "sampleShoppingList.css">
+</head><body>
+	<h1>My Shopping List</h1>
+	<p id = "itemQuestion">How many unique items will you need?</p>
+	<input id = "startingItemsIN" type = "number" min = "1" required>
+	<button id = "initButton" onclick = "initList()">OK</button>
+	<p id = "errorMsg"></p>
+	<!--<a id = "testAnchorID" class = "testAnchor">This is just a demonstration of a cool feature that could have been integrated if Javascript and JQuery weren't petty.</a>-->
+	<ul id = "masterList"></ul>
+</body>
+<script src="sampleShoppingScripts.js"></script>
+</html>

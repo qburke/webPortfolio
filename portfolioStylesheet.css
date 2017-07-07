@@ -1,0 +1,227 @@
+body{
+	margin: 0;
+	background-position: center;
+	background: url("res/snowBackground1.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
+/* TOP BAR */
+#headerNav {
+	margin: 0 auto;
+	background-color: #444444;
+	height: 12%;
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 5px 5px black;
+	z-index: 3;
+}
+
+#titleBox{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #161616;
+	padding-right: 4%;
+	padding-left: 1%;
+	color: #ffffff;
+	font-family: 'Courgette', cursive;
+	font-size: 64px;
+	height: 100%;
+	margin: 0;
+	border-right: 1px grey solid;
+}
+
+#aboutMePicture{
+	background-image: url("res/sampleAvatar.png");
+	position: absolute;
+	margin: 0;
+	right: 0;
+	height: 60%;
+	width: 5%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 20%;
+	bottom: 20%;
+	opacity: 0.6;
+}
+
+#aboutMeDescBox{
+	margin-left: 10%;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	background-color: #3d3d3d;
+	width: 85%;
+	height: 100%;
+	display: none;
+	box-shadow: 5px 5px 5px black;
+	text-decoration: none;
+	text-align: center;
+	opacity: 0;
+}
+
+#aboutMeText{
+	text-align: left;
+}
+
+/* SIDE BAR */
+#sideBar{
+	background-color: #212121; 
+	height: 100%;
+	width: 5%;
+	box-shadow: 3px 0 3px black;
+	position: fixed;
+	z-index: 2;
+}
+
+#icon1{
+	background-image: url("res/codeIconPNK.png");
+}
+
+#icon2{
+	background-image: url("res/writingIconWHT.png");
+}
+
+#icon3{
+	background-image: url("res/skiingIconWHT.png");
+}
+
+#icon4{
+	background-image: url("res/cameraIconWHT.png");
+}
+
+.icon{
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	float: center;
+	height: 5.5%;
+	width: 50%;
+	height: 4%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.6;
+	z-index: 3;
+}
+
+.selectedIcon{
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	float: center;
+	height: 5.5%;
+	width: 50%;
+	height: 4%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+}
+
+.iconLabel{
+	margin-top: 12.5%;
+	margin-bottom: 50%;
+}
+
+
+#iconContainer{
+	display: block;
+	position: relative;
+	top: 16%;
+	text-align: center;
+}
+
+/* BODY CONTENT */
+
+#firstDescBox_icon1{
+	margin-top: 10%;
+}
+#firstDescBox_icon2{
+	margin-top: 10%;
+}
+#firstDescBox_icon3{
+	margin-top: 10%;
+}
+#firstDescBox_icon4{
+	margin-top: 10%;
+}
+
+.descBox_icon1{
+	margin-left: 10%;
+	margin-bottom: 3%;
+	background-color: #3d3d3d;
+	width: 85%;
+	height: 25%;
+	display: inline-block;
+	box-shadow: 5px 5px 5px black;
+	text-decoration: none;
+}
+
+.descBox_icon1:hover{
+	background-color: #424242;
+}
+
+.descBox_icon2{
+	margin-left: 10%;
+	margin-bottom: 3%;
+	background-color: #3d3d3d;
+	width: 85%;
+	height: 25%;
+	display: none;
+	box-shadow: 5px 5px 5px black;
+	text-decoration: none;
+	opacity: 0;
+}
+
+.descBox_icon2:hover{
+	background-color: #424242;
+}
+
+.descBox_icon3{
+	margin-left: 10%;
+	margin-bottom: 3%;
+	background-color: #3d3d3d;
+	width: 85%;
+	height: 25%;
+	display: none;
+	box-shadow: 5px 5px 5px black;
+	text-decoration: none;
+	opacity: 0;
+}
+
+.descBox_icon3:hover{
+	background-color: #424242;
+}
+
+.descBox_icon4{
+	margin-left: 10%;
+	margin-bottom: 3%;
+	background-color: #3d3d3d;
+	width: 85%;
+	height: 25%;
+	display: none;
+	box-shadow: 5px 5px 5px black;
+	text-decoration: none;
+	opacity: 0;
+}
+
+.descBox_icon4:hover{
+	background-color: #424242;
+}
+
+.descDate{
+	color: #f4f4f4 /*#8c005d*/;
+	margin-left: 1%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.descTitle{
+	color: #d30283;
+	margin-left: 1%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.descText{
+	color: #fcfcfc /*#de94f7*/;
+	margin-left: 1%;
+	font-family: 'Titillium Web', sans-serif;
+}

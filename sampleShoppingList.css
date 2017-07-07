@@ -1,0 +1,146 @@
+h1{
+	font-family: sans-serif;
+	margin-left: 5%;
+	font-style: italic;
+	color: #003366;
+}
+
+#itemQuestion{
+	font-family: sans-serif;
+	margin-left: 5%;
+	color: #0052cc;
+}
+#startingItemsIN{
+	margin-left: 5%;
+	color: #0052cc;
+}
+#initButton{
+	background-color: #003366;
+	color: #ffffff;
+	border-radius: 3px;
+	border: 0px;
+	padding: .25%;
+}
+#errorMsg{
+	
+}
+
+body{
+	background-position: center;
+	background-image: url("res/white_background1.jpg");
+	background-size: cover;
+}
+
+#mainBody{
+	margin-left: 5%;
+}
+
+.anchorLinks{
+	display: block;
+	font-family: sans-serif;
+	font-style: bold;
+	margin-bottom: 2%;
+	padding-top: 0.75%;
+	padding-bottom: 0.75%;
+	padding-left: 0.25%;
+	color: #0066cc;
+	border-left: 6px solid #6600cc;
+	background: rgba(179, 102, 255, .25);
+	background: linear-gradient(to right, rgba(179,102, 255, 0.25), rgba(255, 255, 255, 0));
+}
+
+.listItems{
+	color: #6600cc;
+	/*list-style-type: none;*/
+}
+
+.itemNoPrompts{
+	font-family: sans-serif;
+	font-style: bold;
+	color: #0033cc;
+}
+
+.numberFields{
+	color: #0033cc;
+	margin-right: 0.5%;
+}
+
+.numberButtons{
+	background-color: #0033cc;
+	color: #ffffff;
+	border-radius: 3px;
+	border: 0px;
+	padding: .25%;
+	visibility: hidden;
+}
+
+.itemPrompts{
+	padding-top: 0.5%;
+	font-style: bold;
+	font-family: sans-serif;
+	color: #0066cc;
+}
+
+.txtFields{
+	color: #0066cc;
+	margin-right: 0.5%;
+}
+
+.enterButtons{
+	background-color: #0066cc;
+	color: #ffffff;
+	border-radius: 3px;
+	border: 0px;
+	padding: .25%; 
+	margin-right: 2%;
+	visibility: hidden;
+}
+
+.deleteButtons{
+	background-color: #003366;
+	color: #ffffff;
+	border-radius: 3px;
+	border: 0px;
+	padding: .25%;
+	visibility: hidden;
+}
+
+.editButtons{
+	margin-left: 3%;
+	background-color: #ffffff;
+	color: #0066ff;
+	border-radius: 3px;
+	border: 0px;
+	padding: .25%;
+	margin-right: 0.5%;
+	visibility: hidden;
+}
+
+.editInputs{
+	color: #0066ff;
+}
+
+.doneButtons{
+	margin-left: 0.5%;
+	background-color: #0066ff;
+	color: #ffffff;
+	border-radius: 3px;
+	border: 0px;
+	padding: .25%;
+}
+
+#addButton{
+	background-color: #420080;
+	color: #ffffff;
+	border-radius: 3px;
+	border: 0px;
+	padding: .25%;
+}
+
+/*#testAnchorID{
+	display: inline-block;
+	margin-top: 15%;
+	margin-left: 5%;
+	padding: 1.5%;
+	border: 3px black solid;
+}*/
