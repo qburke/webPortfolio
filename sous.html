@@ -17,7 +17,8 @@
     var commands = {
         'hello': function() {
             alert('Hello world!');
-            window.speechSynthesis.speak(new SpeechSynthesisUtterance('Hi there!'));
+            var utterance = new SpeechSynthesisUtterance('Hi there!');
+            window.speechSynthesis.speak(utterance);
         }
     };
 
