@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Quinlan Burke">
+    
+    <title>Sous</title>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script>
+    if (annyang) {
+    // Let's define a command.
+    var commands = {
+        'hello': function() { alert('Hello world!'); }
+    };
+
+    // Add our commands to annyang
+    annyang.addCommands(commands);
+
+    // Start listening.
+    annyang.start();
+    }
+    </script>    
+
+</head>
+
+<body>
+    <p id="test">Test</p>
+</body>
+
+</html>
