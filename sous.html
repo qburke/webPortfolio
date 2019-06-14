@@ -13,15 +13,15 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
     <script>
     if (annyang) {
-    // Let's define a command.
+
     var commands = {
-        'hello': function() { alert('Hello world!'); }
+        'hello': function() {
+            alert('Hello world!');
+            window.speechSynthesis.speak(new SpeechSynthesisUtterance('Hi there!'));
+        }
     };
 
-    // Add our commands to annyang
     annyang.addCommands(commands);
-
-    // Start listening.
     annyang.start();
     }
     </script>    
