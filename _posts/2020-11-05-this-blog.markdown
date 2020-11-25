@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "This Blog"
+date:   2020-11-25 10:47:50 -0500
+categories: jekyll update
+---
+
+# Hello!
+
+At last, I am back home and on a short break from classes, so I am finally getting
+this blog up and running. Interestingly, I don't have a very detailed vision for
+this blog just yet, so I am excited to see how both this blog and I myself will
+evolve over time. I do, however, have some general goals.
+
+At the time of writing, my GitHub is looking a little... barren, and my old
+GitHub hosted site was an exercise from when I was learning the basics of web
+design. I have a fair number of projects I have been meaning to do, as well as a
+desire to start contributing to open source, but as a student, it is often hard
+to find the time to pursue all of these personal projects. The upcoming extended
+winter break, however, provides me with a unique opportunity to start acting on
+many of my ideas. I plan to use this blog as both a way to keep myself
+accountable, but also to document and reflect on my progress as an engineer and
+computer scientist. Perhaps eventually, my experiences could even help someone
+else!
+
+Currently, I do not write regularly as a way of reflection or journaling,so I
+would like to keep the writing somewhat casual, as a way to break down any
+initial barriers or hesitations and encourage myself to just put my thoughts down! 
+
+In line with blogging as a outlet for self-expression, I would like to remove
+any restrictions on subject matter. I love my engineering projects, but I also
+love cooking, hiking and plenty of other things. I want this blog to aid both my
+development as an engineer, but as a person as well. As such, while this blog
+will primarily be focused on my projects, I won't limit myself from the
+occasional off-topic post.
+
+I think these three goals provide a good balance of direction and flexibility
+moving forward, and I am excited to see what becomes of this blog! I have about
+five days until I start classes again, so maybe I'll be able to knock out a quick
+project and post before then!

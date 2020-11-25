@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi! I'm Quin, a sophomore at Cornell majoring in Computer Science with a minor
+in Electrical and Computer Engineering. I am a part-time backend developer for
+a food delivery startup, and an Electrical Subteam member of CUAir. I have been
+involved in various end-user application projects, but I am focused on exploring
+my interests in computer systems (databases, operating systems, embedded systems,
+distributed systems, security). I also love cooking and being outside in nature.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+This blog is built using Jekyll with the Minima theme and hosted on GitHub Pages.
